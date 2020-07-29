@@ -1,0 +1,159 @@
+
+.main-menu{
+	position: fixed;
+}
+
+
+.header-navbar{
+	position: fixed !important;
+}
+
+
+td{
+	vertical-align: middle !important;
+}
+
+
+.select2-results__option[aria-selected] {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    text-transform: capitalize;
+}
+
+.itext{
+	font-size: 1.5rem;
+}
+
+.select2-container {
+	
+    vertical-align: middle;
+    width: 100% !important;
+}
+
+
+
+
+
+
+div.dataTables_wrapper div.dataTables_filter input {
+    min-width: 300px;
+}
+
+.table th {
+    padding:15px;
+}
+
+
+
+ .table td {
+    padding:5px;
+    padding-left: 15px;
+}
+
+
+
+
+.vertical-content-menu.menu-expanded .main-menu {
+    max-height: 500px;
+    overflow: auto;
+}
+
+
+
+
+.radboxP{
+    background: red;
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+/*              For Attendace Radio Buttons                      */
+
+/* The container */
+.ctr {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.ctr input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.ctr:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.ctr input:checked ~ .checkmark {
+  
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.ctr input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.ctr .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.pre{
+    background: green;
+}
+
+.lea{
+    background: orange;
+}
+
+.abs{
+    background: red;
+}
+
+
