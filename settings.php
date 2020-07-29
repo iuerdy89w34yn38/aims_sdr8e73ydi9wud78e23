@@ -2,7 +2,34 @@
 <html class="loading" lang="en" data-textdirection="ltr">
 <head>
   <title>Settings </title>
+
   <?php include "include/head.php"?>
+
+
+
+    <?php
+  if(isset($_POST['update'])){
+    $msg="Successful! Reloading. Please Wait..." ;
+
+
+    $themeid=$_POST['color'];
+
+
+
+    $sql = "UPDATE users SET `theme` = '$themeid' WHERE `username` = '$username'";
+
+    mysqli_query($con, $sql);
+
+    ?>
+
+     <meta http-equiv="refresh" content="0;URL='index.php'">
+
+<?php
+
+  }
+
+  ?>
+
 </head>
 
 <body class="vertical-layout vertical-content-menu 2-columns   menu-expanded fixed-navbar"
